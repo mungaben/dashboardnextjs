@@ -15,7 +15,7 @@ import { data } from '@/components/Data/Data'
 
 const Orders = () => {
   return (
-    <div className=' bg-gray-100 min-h-screen '>
+    <div className=' bg-gray-100 min-h-screen shadow-lg  rounded-lg border'>
       <div className=' flex justify-between p-4'>
         <h2> Customers</h2>
         <h2> Welcome  Back ,Ben</h2>
@@ -37,7 +37,7 @@ const Orders = () => {
             {
               data.map((item, index) => {
                 return (
-                  <div className=' my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer divide-y hover:bg-purple-200' key={index}>
+                  <div className=' my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer divide-y hover:bg-purple-200 ' key={index}>
                     <div className=' flex p-3'  >
                       <FaShoppingBag className='text-purple-400 hover:bg-purple-700 rounded-lg border' size={20} />
                       <span className=' text-sm font-bold text-left will-change-scroll ml-4 '>$ {item.total} </span>
