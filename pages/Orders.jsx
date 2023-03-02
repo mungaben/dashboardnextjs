@@ -40,7 +40,7 @@ const Orders = () => {
                   <div className=' my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer divide-y hover:bg-purple-200' key={index}>
                     <div className=' flex p-3'  >
                       <FaShoppingBag className='text-purple-400 hover:bg-purple-700 rounded-lg border' size={20} />
-                      <span className=' text-sm  ml-4 '>$ {item.total} </span>
+                      <span className=' text-sm font-bold text-left will-change-scroll ml-4 '>$ {item.total} </span>
                     </div>
                    
                     <span className=' sm:text-left text-right '>{item.status}</span>
