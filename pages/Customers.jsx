@@ -29,10 +29,8 @@ const Customers = () => {
                       <BsPersonFill className='text-purple-400 hover:bg-purple-700 rounded-lg border' size={20} />
                       <span className=' text-sm  ml-4 '>{item.name.first} </span>
                     </div>
-                   
                     <span className=' sm:text-left text-right '>{item.email}</span>
                     <span className=' hidden md:grid'> {item.date}</span>
-                   
                     <span className='hidden  md:flex justify-between items-center mr-10'> {item.method} <BsThreeDotsVertical/> </span>
                   </div>
                 )
