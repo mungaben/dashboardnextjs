@@ -3,7 +3,7 @@ simple sales Dashboard created in nextjs
 ### live project 
 # https://dashboardnextjs-kappa.vercel.app/
 
-
+ file:///home/kamau/Pictures/Screenshots/Screenshot%20from%202023-03-08%2015-24-59.png
 
 
 
