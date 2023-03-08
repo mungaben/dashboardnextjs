@@ -1,6 +1,6 @@
-##simple salezs Dashboard created in nextjs 
+simple sales Dashboard created in nextjs 
 ## graphs done with cahrtjs 
-#live project 
+### live project 
 # https://dashboardnextjs-kappa.vercel.app/
 
 
